@@ -1,17 +1,17 @@
 .navigation{
-background-color: purple;
+background-color: blue;
 overflow: hidden;
 }
 .navigation a {
 float: left;
-color: #f2f2f2;
+color: white;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
 font-size: 17px;
 }
 .navigation a:hover {
-background-color: #ddd;
+background-color:yellow;
 color: black;
 }
 .navigation a.active {
@@ -26,6 +26,9 @@ text-align: center;
 -webkit-text-fill-color: transparent;
 }
 .image1 {
+text-align: center;
+}
+.image2 {
 text-align: center;
 }
 .Starter{

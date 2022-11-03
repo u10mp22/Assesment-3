@@ -1,20 +1,30 @@
 .navigation{
-background-color: purple;
+background-color: blue;
 overflow: hidden;
 }
 .navigation a {
 float: left;
-color: #f2f2f2;
+color: white;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
 font-size: 17px;
 }
 .navigation a:hover {
-background-color: #ddd;
+background-color: yellow;
 color: black;
 }
 .navigation a.active {
 background-color: blue;
 color: white;
+}
+h1{
+font-size: 75px;
+background: linear-gradient(to right, red, cyan, blue, pink, orange, turquoise);
+text-align: center;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.image1 {
+text-align: center;
 }
