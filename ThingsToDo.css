@@ -1,5 +1,5 @@
 body{
-background-color: #faf189
+background-color: white;
 }
 .navigation{
 background-color: blue;
@@ -14,11 +14,11 @@ text-decoration: none;
 font-size: 17px;
 }
 .navigation a:hover {
-background-color: yellow;
+background-color red;
 color: black;
 }
 .navigation a.active {
-background-color: red;
+background-color: blue;
 color: white;
 }
 h1{
@@ -28,6 +28,26 @@ text-align: center;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+.row:after{
+content: "";
+display: table;
+clear: both;
+}
+.column-left {
+width: 60%;
+padding: 0 10px 0 0;
+float: left;
+background-color: lightsteelblue;
+}
+
+.column-right {
+width: 20%;
+padding: 0 10px 0 0;
+float: right;
+background-color: lightskyblue;
+}
+
 .image1 {
 text-align: center;
 }
+

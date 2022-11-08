@@ -1,3 +1,6 @@
+body{
+background-color: #faf189;
+}
 .navigation{
 background-color: blue;
 overflow: hidden;
@@ -15,7 +18,7 @@ background-color:yellow;
 color: black;
 }
 .navigation a.active {
-background-color: blue;
+background-color: red;
 color: white;
 }
 h1{
