@@ -35,7 +35,7 @@ text-align: center;
 text-align: center;
 }
 .Starter{
-background: coral;
+background: lightcyan;
 font-size: 35px
 }
 ul {
@@ -48,4 +48,8 @@ font-size: 25px
 }
 .map {
 text-align: center;
+}
+p{
+background-color: lightcyan;
+font-size: 30px
 }

@@ -32,7 +32,7 @@ text-align: center;
 width: 60%;
 padding: 0 10px 0 0;
 float: left;
-background-color: lightpink;
+background-color: greenyellow;
 }
 
 .column-right {
@@ -46,8 +46,11 @@ overflow-wrap: break-word;
 text-align: center;
 }
 h2{
+font-size: 35px;
 text-align:center;
 }
 .image1 {
 text-align: center;
 }
+p{
+font-size: 25px; 
